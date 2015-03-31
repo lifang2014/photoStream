@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.aplus.view.ImageWallView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:customAttr="http://schemas.android.com/apk/res/com.aplus.activity"
+        android:id="@+id/imageWallView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        customAttr:columnSize="2"
+        customAttr:padding="3"
+        android:background="#777777">
+
+</com.aplus.view.ImageWallView>

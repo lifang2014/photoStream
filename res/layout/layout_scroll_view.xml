@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.aplus.view.MyScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/myScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                      android:id="@+id/fristColumn"
+                      android:layout_weight="1"
+                      android:orientation="vertical">
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                      android:id="@+id/secondColumn"
+                      android:layout_weight="1"
+                      android:orientation="vertical">
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                      android:id="@+id/thirdColumn"
+                      android:layout_weight="1"
+                      android:orientation="vertical">
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.aplus.view.MyScrollView>

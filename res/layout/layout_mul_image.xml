@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:orientation="horizontal">
+
+                        <ImageView android:layout_width="48dp" android:layout_height="48dp"
+                                android:id="@+id/imageFace"
+                                android:background="@drawable/face"/>
+
+                        <LinearLayout android:layout_width="match_parent"
+                                      android:layout_height="wrap_content"
+                                      android:orientation="vertical"
+                                      android:layout_marginLeft="8dp">
+                                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                          android:text="漏网之鱼"
+                                          android:textSize="18sp"
+                                          android:id="@+id/txtName"/>
+                                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                          android:id="@+id/txtDesc"
+                                          android:text="stay hungry, stay foolish."
+                                          android:textSize="16sp"/>
+                        </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#4B0082">
+
+                    <LinearLayout android:layout_width="match_parent"
+                                  android:layout_height="wrap_content"
+                                  android:orientation="horizontal"
+                                  android:id="@+id/oneLinearLayout">
+
+                        <ImageView android:layout_width="0dp" android:layout_height="90dp"
+                                   android:layout_weight="1"
+                                   android:visibility="gone"
+                                   android:id="@+id/img1"/>
+
+                        <ImageView android:layout_width="0dp" android:layout_height="90dp"
+                                   android:layout_weight="1"
+                                   android:visibility="gone"
+                                   android:id="@+id/img2"/>
+
+                        <ImageView android:layout_width="0dp" android:layout_height="90dp"
+                                   android:layout_weight="1"
+                                   android:visibility="gone"
+                                   android:id="@+id/img3"/>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout android:layout_width="match_parent"
+                                  android:layout_height="wrap_content"
+                                  android:orientation="horizontal"
+                                  android:id="@+id/twoLinearLayout">
+
+                        <ImageView android:layout_width="0dp" android:layout_height="90dp"
+                                   android:layout_weight="1"
+                                   android:visibility="gone"
+                                   android:id="@+id/img4"/>
+
+                        <ImageView android:layout_width="0dp" android:layout_height="90dp"
+                                   android:layout_weight="1"
+                                   android:visibility="gone"
+                                   android:id="@+id/img5"/>
+
+                        <ImageView android:layout_width="0dp" android:layout_height="90dp"
+                                   android:layout_weight="1"
+                                   android:visibility="gone"
+                                   android:id="@+id/img6"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+        </LinearLayout>
+
+</ScrollView>
